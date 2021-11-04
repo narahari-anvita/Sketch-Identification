@@ -1,0 +1,65 @@
+body{
+    background-color: darkslateblue;
+    color: rgb(0, 0, 0); 
+}
+h1{
+    background-color: blanchedalmond;
+}
+h1:hover{
+    background-image: linear-gradient(to top right, rgb(255, 255, 223) 0%, gold 50%, rgba(255, 222, 130, 0.952) 100%);
+}
+
+.close{
+    color: rgb(0, 15, 148);
+}
+
+#show_sketch{
+    background-image: linear-gradient(to top right, rgb(255, 255, 223) 0%, gold 50%, rgba(255, 222, 130, 0.952) 100%);
+    float: right;
+}
+
+button:hover{
+    background-color: rgb(245, 255, 200);
+}
+
+button{
+    color: black;
+    font-weight: 550;
+}
+
+#label{
+color: bisque;
+font-size: 25px;
+}
+
+#confidence{
+color: bisque;
+font-size: 25px
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#clear{
+    box-shadow: 10px 10px 10px palegreen; 
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
